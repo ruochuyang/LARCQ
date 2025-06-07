@@ -1,3 +1,4 @@
+# 🚀 Official codes of our Interspeech paper **On Retrieval of Long Audios with Complex Text Queries**
 
 # Prerequisite
 
@@ -82,9 +83,7 @@ In our paper, we use LLM or miniLM to compare the ALM generated response with th
 
 install the `vllm` package (version `>=0.6.1.post1` to ensure maximum compatibility with all Mistral models).
 
-authenticate on the HuggingFace Hub using your access token `$HF_TOKEN` :
-
-```huggingface-cli login --token $HF_TOKEN```
+authenticate on the HuggingFace Hub using your access token `$HF_TOKEN` : `huggingface-cli login --token $HF_TOKEN`
 
 * Choose an ALM captioning file `results/alm_results/{benchmark}/retrieved_audios_{ALM}.csv`, like `results/alm_results/Clotho_LARCQ/retrieved_audios_gama.csv`
 
