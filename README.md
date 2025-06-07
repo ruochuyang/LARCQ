@@ -82,7 +82,7 @@ In our paper, we use LLM or miniLM to compare the ALM generated response with th
 
 (1) Use LLM 
 
-* In our paper, we use Mixtral as the LLM for re-ranking. Follow the tutorial on the Mistral AI [website link](https://docs.mistral.ai/deployment/self-deployment/vllm/) to set up Mixtral. Install the `vllm` package (version `>=0.6.1.post1` to ensure maximum compatibility with all Mistral models). Then, authenticate on the HuggingFace Hub using your access token `$HF_TOKEN` through the command `huggingface-cli login --token $HF_TOKEN`
+* In our paper, we use Mixtral as the LLM for re-ranking. Follow the tutorial on the Mistral AI [website link](https://docs.mistral.ai/deployment/self-deployment/vllm/) to set up Mixtral. First, install the `vllm` package (version `>=0.6.1.post1` to ensure maximum compatibility with all Mistral models). Second, authenticate on the HuggingFace Hub using your access token `$HF_TOKEN` through the command `huggingface-cli login --token $HF_TOKEN`
 
 * Choose an ALM captioning file `results/alm_results/{benchmark}/retrieved_audios_{ALM}.csv`, like `results/alm_results/Clotho_LARCQ/retrieved_audios_gama.csv`
 
