@@ -107,9 +107,9 @@ LLM re-ranking results are saved as `results/llm_results/{benchmark}/{ALM}_cross
 ## 3. Evaluate final results
 Finally, we evalute the following final results to obtain all the metrics R@1 and R@5 in our paper.
 
-`benchmark = Clotho_LARCQ, SoundDescs_LARCQ`
-`ALM = gama, flamingo`
-LLM results: `results/llm_results/{benchmark}/{ALM}_llm_ranking.csv`
+`benchmark = Clotho_LARCQ, SoundDescs_LARCQ`  
+`ALM = gama, flamingo`  
+LLM results: `results/llm_results/{benchmark}/{ALM}_llm_ranking.csv`  
 miniLM results: `results/llm_results/{benchmark}/{ALM}_cross_encoder_ranking.csv`
 
 Run terminal command `python -m evaluate_final_result` 
