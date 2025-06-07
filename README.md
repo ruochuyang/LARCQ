@@ -1,5 +1,8 @@
 # 🚀 Official codes of our Interspeech paper *On Retrieval of Long Audios with Complex Text Queries*
 
+* Project website https://sites.google.com/view/larcq
+* LARCQ benchmark website https://huggingface.co/datasets/ruochuyang/LARCQ
+
 # Prerequisite
 
 ## 1. Configure environments
