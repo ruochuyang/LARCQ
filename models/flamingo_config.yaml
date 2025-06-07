@@ -1,0 +1,23 @@
+clap_config:
+  method: microsoft-clap
+  audio_embed_dim: 1024
+  config_root: ./models/ms_clap_configs
+  model_name: 'clapcap'
+  checkpoint: ./models/clapcap_weights_2023.pth
+  window_length: 7.0
+  window_overlap: 5.25
+  max_num_window: 16
+  max_num_fewshot: 1
+
+model_config:
+  cache_dir: ./models/.cache
+  lang_encoder_path: ./models/opt-iml-max-1.3b
+  tokenizer_path: ./models/opt-iml-max-1.3b
+  cross_attn_every_n_layers: 1
+  audio_transformer_kwargs: {
+    n_head: 8,
+    n_layers: 3,
+    d_inner: 2048,
+    max_num_media: 128,
+    max_window_per_audio: 16,
+  }
