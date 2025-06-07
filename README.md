@@ -1,4 +1,4 @@
-# 🚀 Official codes of our Interspeech paper **On Retrieval of Long Audios with Complex Text Queries**
+# 🚀 Official codes of our Interspeech paper *On Retrieval of Long Audios with Complex Text Queries*
 
 # Prerequisite
 
